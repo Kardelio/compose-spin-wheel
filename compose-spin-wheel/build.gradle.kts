@@ -53,8 +53,6 @@ afterEvaluate{
                 artifactId = "compose-spin-wheel"
                 version = "0.1"
                 from(components["release"])
-//                println("${buildDir}/outputs/aar/compose-spin-wheel-release.aar")
-//                artifact("${buildDir}/outputs/aar/compose-spin-wheel-release.aar")
             }
         }
         repositories {
